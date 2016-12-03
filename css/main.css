@@ -1,0 +1,165 @@
+/* CSS Document
+contenido: #F2B705
+encabezado: #F29F05
+equivalentes: #D97904
+piepagina: #733702
+auxiliar: #401801
+*/
+*{
+  margin: 0;
+}
+body{
+  background-image: url(../fondos/fondo4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+h1,h2{
+    text-align: center;
+    font-family: Georgia,"Times New Roman", Times, serif;
+    letter-spacing: 5px;
+}
+h1{
+
+  font-size: 3em;
+  /*line-height: 2em;*/
+  color: white !important;
+  /*border: 2px groove #f60;*/
+  margin: 0 4em;
+  border-bottom: 5px solid #f63;
+  background-image: url(../fondos/fondo3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+}
+h2{
+  font-size: 200%;
+
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #fff;
+}
+a:visited{
+  color: #cc6666;
+}
+a:hover{
+  color:#ff0000;
+  text-decoration: underline;
+}
+a:active{
+  color:white;
+  background-color: #f63;
+}
+p{
+  /*margin: 1em 3em 1em 3em; /*trbl*/
+  padding: 1em 0;
+  /*border: 2px groove #f60;*/
+  /*border: 2px solid #000;*/
+  /*border: 5px double #000;*/
+  /*border: 5px dashed #000;*/
+  /*border: 5px dotted #000;*/
+}
+img{
+  border: 10px solid #f60;
+  padding: 10px;
+}
+/*******************************
+Identificadores
+*******************************/
+#contenido{
+width: 80%;
+margin: 0 auto;
+background-color: #F2B705;
+font-family: Georgia,"Times New Roman", Times, serif;
+}
+#encabezado{
+background-color: #f3f;
+padding: 20px;
+padding-bottom: 0;
+
+}
+#menu li{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+#menu a{
+  color: #000;
+  background-color: #ffeda0;
+  padding: 4px 8px 4px 8px;
+  border: 1px solid #8c8c8c;
+}
+#menu a:hover, #diosas #op3 a{
+  text-decoration: none;
+  color: #000;
+  background-color: pink;
+  border-bottom: none;
+  padding: 4px 8px 4px 8px;
+
+}
+#menu{
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px 10px 4px 10px;
+  border-bottom: #8c8c8c;
+}
+#articulo{
+  background-color: pink;
+  color: #401801;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  padding-top: 10px;
+  height: 300px;
+}
+#equivalentes{
+background-color: fuchsia;
+font-family: "Courier New", Courier, monospace;
+padding: 20px;
+}
+#piepagina{
+background-color: #733702;
+color: #F2B705;
+padding: 20px;
+}
+#centro{
+  width: 440px;
+  margin: 5px auto;
+}
+/*******************************
+CLASES
+*******************************/
+.resaltar{
+  background-color: #f63;
+  color:white;
+  text-decoration: underline;
+  font-style: italic;
+}
+.izq{
+  float:left;
+  padding: 3px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.der{
+  float:right;
+  padding: 3px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+/*******************************
+Reglas Anidadas
+*******************************/
+#equivalentes a{
+  color: #ffff00;
+  text-decoration: underline;
+}
+ol li{
+  list-style: decimal;
+}
+ol ol li{
+  list-style: lower-alpha;
+}
